@@ -5,8 +5,8 @@ The repo is for testing building Android and IOS standalone app.
 
 ## Get started 
 1. To test the app, you need to have Android studio emulator or/and IOS simulator ready first. 
-[Android Studio Emulator](https://docs.expo.io/workflow/android-studio-emulator/)
-[IOS Simulator](https://docs.expo.io/workflow/ios-simulator/)
+- [Android Studio Emulator](https://docs.expo.io/workflow/android-studio-emulator/)
+- [iOS Simulator](https://docs.expo.io/workflow/ios-simulator/)
 >
 
 1. Clone / download the project and open with vscode, then run below command in terminal to install dependencies:
@@ -41,5 +41,5 @@ More detailed instruction can be found on expo website [Get Started](https://doc
 1. Download artifacts from [here](https://expo.io/artifacts/f8212680-2b00-47f0-a659-3a00e15b7786)
 2. To install the resulting tar.gz file, unzip it and drag-and-drop it into your iOS simulator. 
 3. If you'd like to install it from the command line, run tar -xvzf your-app.tar.gz to unpack the file, open a simulator, then run xcrun simctl install booted <path to .app>.
-4. The IOS prebuild package only support simulator. To test a device build with Apple TestFlight, refers to expo document [build standalone app](https://docs.expo.io/distribution/building-standalone-apps/)
+4. The IOS prebuild package only support simulator. To test a device build with Apple TestFlight, refers to expo document [build standalone app](https://docs.expo.io/distribution/building-standalone-apps/) last part. 
 
