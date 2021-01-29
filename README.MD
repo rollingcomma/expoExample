@@ -9,7 +9,7 @@ The repo is for testing building Android and IOS standalone app.
 [IOS Simulator](https://docs.expo.io/workflow/ios-simulator/)
 >
 
-2. Clone the project to local vscode, then run below command in terminal:
+1. Clone / download the project and open with vscode, then run below command in terminal to install dependencies:
 ```
 npm install
 ```
@@ -20,13 +20,15 @@ With android emulator or ios simulator running, run below commad in terminal:
 ```
 npm start
 ```
-Follow the instruction to test on different plateform. 
-For example"
-enter i for IOS emulator
+Follow the instruction to test the app on different plateform. 
+For example
+- enter i for IOS simulator
+- enter a for Android emulator
 
-Detail instruction can be found on expo website [Get Started](https://docs.expo.io/get-started/create-a-new-app/)
 
-## Test prebuild package on your device or simulator
+More detailed instruction can be found on expo website [Get Started](https://docs.expo.io/get-started/create-a-new-app/)
+
+## Test pre-build package on your device or simulator
 
 **Android**
 
